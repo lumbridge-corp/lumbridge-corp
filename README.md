@@ -4,19 +4,22 @@
 
 # Lumbridge
 
-**The open engine for agentic organizations.** Twelve open-source parts, mostly Rust, Apache-2.0.
+**The open engine for agentic organizations.** Fourteen open-source parts, mostly Rust, Apache-2.0.
 They install on a standard Ubuntu machine and give every person and every agent in a company the same
-terminals, mail, notes, library, voice and software factory, on machines you own.
+terminals, mail, notes, library, voice and software factory, on machines you own,
+and trains small models from your own work so they get better every week.
 
 The rule in every part: agents read, draft and build. A person sends, merges and does anything that can't be undone.
 Every part that calls a model takes any OpenAI-compatible endpoint.
 
-## The twelve parts
+## The fourteen parts
 
 | Job | Part | What it does |
 |---|---|---|
 | 01 Sense | [lumbridge-voice](https://github.com/lumbridge-corp/lumbridge-voice) | Speech to text on your own hardware |
 | 02 Think | [lumbridge-computer](https://github.com/lumbridge-corp/lumbridge-computer) | Serves, switches and watches open models on a GPU box you own |
+| 02 Think | [lumbridge-train](https://github.com/lumbridge-corp/lumbridge-train) | Trains small decision models from your own work, on your own machine |
+| 02 Think | [lumbridge-rl](https://github.com/lumbridge-corp/lumbridge-rl) | The trainer underneath Train: SFT and RL on one GPU, from prime-rl |
 | 03 Remember | [lumbridge-notes](https://github.com/lumbridge-corp/lumbridge-notes) | Markdown notes in the terminal, written by people and agents |
 | 03 Remember | [lumbridge-library](https://github.com/lumbridge-corp/lumbridge-library) | A private library of documents, research, code and design systems |
 | 04 Make | [lumbridge-factory](https://github.com/lumbridge-corp/lumbridge-factory) | Agents build each change in a sandbox; checks and a review gate it; a person merges |
