@@ -4,7 +4,7 @@
 
 # Lumbridge
 
-**The open engine for agentic organizations.** Fourteen open-source parts, mostly Rust, Apache-2.0.
+**The open engine for agentic organizations.** Fifteen open-source parts, mostly Rust, Apache-2.0.
 They install on a standard Ubuntu machine and give every person and every agent in a company the same
 terminals, mail, notes, library, voice and software factory, on machines you own,
 and trains small models from your own work so they get better every week.
@@ -12,7 +12,7 @@ and trains small models from your own work so they get better every week.
 The rule in every part: agents read, draft and build. A person sends, merges and does anything that can't be undone.
 Every part that calls a model takes any OpenAI-compatible endpoint.
 
-## The fourteen parts
+## The fifteen parts
 
 | Job | Part | What it does |
 |---|---|---|
@@ -30,6 +30,7 @@ Every part that calls a model takes any OpenAI-compatible endpoint.
 | 07 Run | [lumbridge-app](https://github.com/lumbridge-corp/lumbridge-app) | The desktop workspace for terminals and agents |
 | 07 Run | [lumbridge-tui](https://github.com/lumbridge-corp/lumbridge-tui) | The workspace inside any terminal |
 | 07 Run | [lumbridge-mods](https://github.com/lumbridge-corp/lumbridge-mods) | Mods, layouts and keys for the App |
+| 09 Steer | [lumbridge-tera](https://github.com/lumbridge-corp/lumbridge-tera) | A 3D world engine that agents build, film and walk through |
 
 Start with **Core**. The App and the TUI are two ways to see your terminals; you need only one.
 
